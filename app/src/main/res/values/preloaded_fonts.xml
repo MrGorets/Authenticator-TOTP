@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/arizonia</item>
+        <item>@font/bangers</item>
+        <item>@font/condiment</item>
+        <item>@font/faster_one</item>
+        <item>@font/geostar_fill</item>
+        <item>@font/herr_von_muellerhoff</item>
+        <item>@font/league_script</item>
+        <item>@font/press_start_2p</item>
+        <item>@font/zcool_kuaile</item>
+    </array>
+</resources>

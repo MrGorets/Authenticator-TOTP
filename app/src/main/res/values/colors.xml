@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#202020</color>
+    <color name="bg">#202020</color>
+    <color name="blacklith">#F2616161</color>
+    <color name="noactive">#A10120</color>
+    <color name="active">#F2FF0000</color>
+
+
+    <color name="text">#FF9100</color>
+    <color name="error">#F50057</color>
+
+
+    <color name="bgArea">#97565A5A</color>
+    <color name="token">#2979FF</color>
+    <color name="progress">#07CC6C</color>
+
+    <color name="white">#FFFFFFFF</color>
+
+
+</resources>
