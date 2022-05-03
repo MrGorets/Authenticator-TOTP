@@ -1,12 +1,15 @@
 package com.gorets.khub;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GestureDetectorCompat;
 
 import android.animation.ObjectAnimator;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.view.GestureDetector;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -23,9 +26,6 @@ public class MainActivity extends AppCompatActivity {
     ProgressBar progressBar;
     com.google.android.material.floatingactionbutton.FloatingActionButton button;
     TextView textViewToken;
-
-    private static final int MAX_LEVEL = 30;
-    private static final long GAUGE_ANIMATION_DURATION = 5000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,14 +84,6 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this, "Done!", Toast.LENGTH_SHORT).show();
         }
 
-
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-
-
     }
 
     public void Scan(View v){
@@ -104,6 +96,4 @@ public class MainActivity extends AppCompatActivity {
         String savedText = storage.getString("SECRET", "");
         return savedText;
     }
-
-
 }
